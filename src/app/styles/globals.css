@@ -1,0 +1,10 @@
+@import url('./variables.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: var(--color-bg, black);
+  color: var(--color-text, white);
+}
